@@ -1,0 +1,975 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-top"
+			],
+			[
+				"animation-",
+				"animation-fill-mode"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"prove",
+				"proveedor_ID"
+			],
+			[
+				"post_",
+				"post_id"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"b",
+				"bd	border"
+			],
+			[
+				"strgo",
+				"strong"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"op",
+				"opacity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "revealjs-wp-theme-master/index.php",
+			"settings":
+			{
+				"buffer_size": 6830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "revealjs-wp-theme-master/css/theme/night.css",
+			"settings":
+			{
+				"buffer_size": 9436,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "sideb",
+		"selected_items":
+		[
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"lines",
+				"Sort Lines"
+			],
+			[
+				"bs3-tab",
+				"Snippet: bs3-table"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"load",
+				"Snippet: .load()"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"label",
+				"Snippet: bs3-label-info"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"html b",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"inpu",
+				"Snippet: input - button"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"bad",
+				"Snippet: bs3-alert-danger"
+			],
+			[
+				"html",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"sass",
+				"Build With: SASS"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 145.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/plizardo/Sites/info3cast",
+		"/Users/plizardo/Sites/info3cast/wp-content",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css/theme",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/js",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/info3cast"
+	],
+	"file_history":
+	[
+		"/Volumes/pablo-pc/.aliases",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/header.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css/theme/night.css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/theme_backup/index.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/theme_backup/css/theme/night.css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/theme_backup/header.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/js/main.js",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/functions.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/js/reveal.js",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/index.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css/animate.css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css/reveal.css",
+		"/Users/plizardo/Sites/proveedores/wp-content/themes/fire_theme/functions.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/footer.php",
+		"/Users/plizardo/Downloads/skycons-master/index.html",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/js/skycons.js",
+		"/Users/plizardo/Sites/info3cast/wp-includes/theme-compat/footer.php",
+		"/Users/plizardo/Sites/info3cast/wp-includes/theme-compat/header.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/twentysixteen/functions.php",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/css/theme/default.css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/style.css",
+		"/Users/plizardo/Sites/info3cast/wp-content/themes/info3cast/index.html",
+		"/Users/plizardo/Sites/info3cast/wp-config-sample.php",
+		"/Users/plizardo/Sites/proveedores/wp-content/themes/fire_theme/single-cliente.php",
+		"/Users/plizardo/Sites/proveedores/wp-content/themes/fire_theme/single-proveedor.php",
+		"/private/var/folders/x8/9x4lqk3n24g9hvdqp90j713h0000gp/T/fz3temp-1/wp-config.php",
+		"/Users/plizardo/TRABAJOS/00_INSTITUCIONAL/logos/LOGOS_TVFUEGO.svg",
+		"/Users/plizardo/Downloads/signature.htm",
+		"/Users/plizardo/sources/tvf_scripts/fire_fix_bacua.sh",
+		"/Users/plizardo/.config/inkscape/preferences.xml",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/screenshot.png",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/search.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/archive.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/index.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-aviso.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-avisos.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-vendedor.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-editor.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-cliente.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-agencia.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-orden.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-cliente.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-ordenes.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/functions.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/404.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-reporte.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-filtros.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-placa.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-camarografo.php",
+		"/Users/plizardo/Library/Application Support/Sublime Text 3/Packages/Sublime-HTMLPrettify/.jsbeautifyrc",
+		"/Users/plizardo/Library/Application Support/Sublime Text 3/Packages/Sublime-HTMLPrettify/HTMLPrettify.sublime-settings",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/header.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-editor.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-estadisticas.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-vendedor.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/css/main.scss",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-agencia.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-anunciante.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/single-locutor.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/templates-pages/page-locucion.php",
+		"/Users/plizardo/Downloads/fire_22_10_2015_.xls",
+		"/Users/plizardo/Sites/fire/wp-includes/functions.php",
+		"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme/index_OLD.php",
+		"/Users/plizardo/TRABAJOS/00_INSTITUCIONAL/actualizacion_grilla_dibox/textures/canales/canales.html",
+		"/Users/plizardo/TRABAJOS/00_INSTITUCIONAL/GRILLA_HTML/canales/canales.html",
+		"/Users/plizardo/Sites/fire/.htaccess"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme-master/",
+			"/Users/plizardo/Sites/info3cast/wp-content/themes/revealjs-wp-theme/",
+			"/Users/plizardo/Sites/proveedores/wp-content/themes/fire_theme",
+			"/Users/plizardo/Sites/fire/wp-content/themes/fire_theme",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"font-size: 3.9em;\n  line-height: 1.8em;\n  text-align: center;\n  text-transform: uppercase;\n  color:#fff;\n  padding-bottom: 10px;\n  border-bottom: 2px solid rgba(0,0,0,.3);\n  margin-bottom: 15px;",
+			"clima",
+			"h1",
+			"Clima en ",
+			">En ",
+			"h1",
+			"farmacia_direccion_ush",
+			"farmacia_direccion_rg",
+			"farmacia_rio_grande",
+			"farmacia_ushuaia",
+			"farmacia_rio_grande",
+			"rg",
+			"rio_grande",
+			"30",
+			"farmacia",
+			"h3",
+			"h2",
+			"p",
+			"</strong>",
+			"<strong>",
+			" style=\"font-size: 100px !important; margin-bottom:20px!important;line-height:120px;\"",
+			" style=\"font-size:4.5em;\"",
+			"rg",
+			"p",
+			"h3",
+			"h2",
+			"0.95",
+			"1",
+			"1.1",
+			"h2",
+			"50px",
+			"h2",
+			"backgroundVideo",
+			"clim",
+			".9",
+			"-19deg",
+			"19deg",
+			"rotateY",
+			"slideLoop",
+			"aside",
+			"foot",
+			"style=\"text-align: center; font-size: 3.2em; margin-top:60px !important; border-top: 6px solid rgba(0,0,0,.3); padding-top : 20px; width: 100%; margin:auto; font-weight: 400; font-style: italic; \"",
+			"; ",
+			"10px",
+			"h1",
+			"td",
+			"th",
+			"h1",
+			"'transition'",
+			"'transition' :",
+			"'transition'  :",
+			"transition",
+			"img",
+			"12",
+			"slideLoop",
+			"title",
+			"p",
+			"font-size",
+			"pt",
+			"reveal p",
+			"px",
+			"Add New",
+			"View",
+			"Movie",
+			", 'twentythirteen' ",
+			"img",
+			".reveal p",
+			"block",
+			"img",
+			"w60",
+			"skewX",
+			"20deg",
+			"pulse",
+			"infinite",
+			"animated",
+			"logo1",
+			"<strong>",
+			"letter-spacing",
+			"Montserrat",
+			"p",
+			"h2",
+			"left",
+			"h2",
+			"2",
+			"8",
+			"15",
+			"30",
+			"900",
+			"6",
+			"30",
+			"| ",
+			"15",
+			"jpg",
+			"png",
+			"<strong>Raymond</strong>",
+			"h2",
+			"No Placas found",
+			"background",
+			"Background",
+			"background",
+			"Background",
+			"background",
+			"Background",
+			"background",
+			"Background",
+			"background",
+			"Background",
+			"background",
+			"Notes",
+			"Slide",
+			"Slides",
+			"256",
+			":",
+			"rg",
+			"\",",
+			",",
+			"sub",
+			"</dd>",
+			"/dt><dd>",
+			"dl ",
+			"dl",
+			"dt",
+			"p",
+			"1080",
+			"true",
+			"jquey",
+			"jquery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"png",
+			"\" /> </li>",
+			"<li><img",
+			"\" >",
+			"src=\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "revealjs-wp-theme-master/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4771,
+								4771
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "revealjs-wp-theme-master/css/theme/night.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4991,
+								4991
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4703.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "info3cast.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reve",
+				"info3cast/wp-content/themes/revealjs-wp-theme-master/js/reveal.js"
+			],
+			[
+				"main.",
+				"info3cast/wp-content/themes/revealjs-wp-theme-master/js/main.js"
+			],
+			[
+				"anima",
+				"info3cast/wp-content/themes/revealjs-wp-theme-master/css/animate.css"
+			],
+			[
+				"foot",
+				"info3cast/wp-includes/theme-compat/footer.php"
+			],
+			[
+				"head",
+				"info3cast/wp-includes/theme-compat/header.php"
+			],
+			[
+				"func",
+				"info3cast/wp-content/themes/twentysixteen/functions.php"
+			],
+			[
+				"single-ord",
+				"single-orden.php"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"page-cl",
+				"templates-pages/page-cliente.php"
+			],
+			[
+				"page-avi",
+				"templates-pages/page-avisos.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"pag",
+				"templates-pages/page-ordenes.php"
+			],
+			[
+				"sing",
+				"single-aviso.php"
+			],
+			[
+				"single",
+				"single-locutor.php"
+			],
+			[
+				"vende",
+				"templates-pages/page-vendedor.php"
+			],
+			[
+				"edi",
+				"templates-pages/page-editor.php"
+			],
+			[
+				"main",
+				"css/main.scss"
+			],
+			[
+				"page",
+				"templates-pages/page-avisos.php"
+			],
+			[
+				"sea",
+				"search.php"
+			],
+			[
+				"single-aviso",
+				"single-aviso.php"
+			],
+			[
+				"single-a",
+				"single-agencia.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"re",
+				"templates-pages/page-reporte.php"
+			],
+			[
+				"ma",
+				"css/main.scss"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"orde",
+				"single-orden.php"
+			],
+			[
+				"filtr",
+				"templates-pages/page-filtros.php"
+			],
+			[
+				"filtro",
+				"templates-pages/page-filtros.php"
+			],
+			[
+				"single-or",
+				"single-orden.php"
+			],
+			[
+				"sin",
+				"single-cliente.php"
+			],
+			[
+				"esta",
+				"templates-pages/page-estadisticas.php"
+			],
+			[
+				"report",
+				"templates-pages/page-reporte.php"
+			],
+			[
+				"mai",
+				"css/main.scss"
+			],
+			[
+				"single-lo",
+				"single-locutor.php"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"avisos",
+				"templates-pages/page-avisos.php"
+			],
+			[
+				"filt",
+				"templates-pages/page-filtros.php"
+			],
+			[
+				"single-e",
+				"single-editor.php"
+			],
+			[
+				"edito",
+				"templates-pages/page-editor.php"
+			],
+			[
+				"repo",
+				"templates-pages/page-reporte.php"
+			],
+			[
+				"fil",
+				"templates-pages/page-filtros.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
+			[
+				"estadi",
+				"templates-pages/page-estadisticas.php"
+			],
+			[
+				"header",
+				"wp-content/themes/fire_theme/header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/calendar/calendar.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 402.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
