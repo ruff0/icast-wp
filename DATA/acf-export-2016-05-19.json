@@ -1,0 +1,675 @@
+[
+    {
+        "key": "group_56f016363f3ee",
+        "title": "Clima",
+        "fields": [
+            {
+                "key": "field_56f00e83251ab",
+                "label": "Maxima Rio Grande",
+                "name": "clima_maxima_rg",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "\u00ba",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f00e97251ac",
+                "label": "Minima  Rio Grande",
+                "name": "clima_minima_rg",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "\u00ba",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f00ea3251ad",
+                "label": "Humedad",
+                "name": "clima_humedad_rg",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "%",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f00ed9251ae",
+                "label": "Viento Rio Grande",
+                "name": "clima_viento_rg",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "km\/h",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f010ccee749",
+                "label": "Icono Rio Grande",
+                "name": "clima_icono_rg",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "clear-day": "despejado dia",
+                    "clear-night": "despejado noche",
+                    "partly-cloudy-day": "nublado dia",
+                    "partly-cloudy-night": "nublado noche",
+                    "cloudy": "nublado",
+                    "rain": "lluvia",
+                    "sleet": "granizo",
+                    "snow": "nieve",
+                    "wind": "viento",
+                    "fog": "niebla"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5710e811b4599",
+                "label": "Descripcion Clima Rio Grande",
+                "name": "clima_texto_rg",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f010e7d8573",
+                "label": "Maxima Ushuaia",
+                "name": "clima_maxima_ush",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "\u00ba",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f010f7d8574",
+                "label": "Minima Ushuaia",
+                "name": "clima_minima_ush",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "\u00ba",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f01106d8575",
+                "label": "Humedad Ushuaia",
+                "name": "clima_humedad_ush",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "%",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f01112d8576",
+                "label": "Viento Ushuaia",
+                "name": "clima_viento_ush",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "km\/h",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f0111dd8577",
+                "label": "Icono Ushuaia",
+                "name": "clima_icono_ush",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 20,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "clear-day": "despejado dia",
+                    "clear-night": "despejado noche",
+                    "partly-cloudy-day": "nublado dia",
+                    "partly-cloudy-night": "nublado noche",
+                    "cloudy": "nublado",
+                    "rain": "lluvia",
+                    "sleet": "granizo",
+                    "snow": "nieve",
+                    "wind": "viento",
+                    "fog": "niebla"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5710e837b459a",
+                "label": "Descripcion Clima Ushuaia",
+                "name": "clima_texto_ush",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "info-3-cast"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_56f01ba676769",
+        "title": "Farmacias de Turno",
+        "fields": [
+            {
+                "key": "field_56f015a12f929",
+                "label": "En Rio Grande",
+                "name": "farmacia_rio_grande",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f015bd2f92b",
+                "label": "Direccion Rio Grande",
+                "name": "farmacia_direccion_rg",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5707cae10a052",
+                "label": "En Rio Grande 2",
+                "name": "farmacia_rio_grande_2",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5707caca0a051",
+                "label": "Direccion Rio Grande 2",
+                "name": "farmacia_direccion_rg_2",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f015b22f92a",
+                "label": "En Ushuaia",
+                "name": "farmacia_ushuaia",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56f015c783122",
+                "label": "Direccion Ushuaia",
+                "name": "farmacia_direccion_ush",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5707cb4e0a053",
+                "label": "En Ushuaia 2",
+                "name": "farmacia_ushuaia_2",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5707cb5b0a054",
+                "label": "Direccion Ushuaia 2",
+                "name": "farmacia_direccion_ush_2",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "info-3-cast"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_56fe67c5a918e",
+        "title": "Placas",
+        "fields": [
+            {
+                "key": "field_56fe604c1bcbb",
+                "label": "Titulo Placa",
+                "name": "placa_titulo",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 40,
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56fe633c7a59a",
+                "label": "Foto",
+                "name": "placa_foto",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 30,
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_56fe60e51bcbc",
+                "label": "Texto",
+                "name": "placa_texto",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 70,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": 320,
+                "rows": 6,
+                "new_lines": "wpautop",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56fe70cbc92c9",
+                "label": "Tama\u00f1o de la Foto",
+                "name": "placa_tamanio_foto",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 30,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Chica": "Chica",
+                    "Normal": "Normal",
+                    "Grande": "Grande",
+                    "Muy Grande": "Muy Grande"
+                },
+                "default_value": {
+                    "Normal": "Normal"
+                },
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_56fe62eed6a3e",
+                "label": "Tama\u00f1o del Texto",
+                "name": "placa_tamanio_texto",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 70,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Chico": "Chico",
+                    "Mediano": "Mediano",
+                    "Grande": "Grande",
+                    "Muy Grande": "Muy Grande"
+                },
+                "default_value": {
+                    "Mediano": "Mediano"
+                },
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "placa"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]
