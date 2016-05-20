@@ -78,7 +78,7 @@
 	<div class="farmacia-titulo">Farmacias de Turno</div>
 
 	<div class="col-1">
-		<div class="farmacia-lugar">Rio Grande</div>
+		<div class="farmacia-lugar">Río Grande</div>
 		<div class="farmacia-nombre"><?php the_field('farmacia_rio_grande', 'option'); ?></div>
 		<div class="farmacia-direccion"><?php the_field('farmacia_direccion_rg', 'option'); ?></div>
 		<?php echo (get_field('farmacia_rio_grande_2', 'option'))? '<br><br><br>' : '' ; ?>
@@ -119,7 +119,7 @@
 
 
 <?php 
-$args = array( 'post_type' => 'placa', 'posts_per_page' => 10 );
+$args = array( 'post_type' => 'placa', 'posts_per_page' => 100 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post();
 // while ( have_posts() ) : the_post() ?>
@@ -144,25 +144,31 @@ while ( $loop->have_posts() ) : $loop->the_post();
 				}
 				$foto = '<img '.$tamanio_foto.' src="'.$image.'"/>';
 			endif;
-				echo (get_field('placa_titulo') && get_field('placa_tamanio_foto')!='Muy Grande') ? '<h1>'.get_field('placa_titulo').'</h1>' : '';  
-				switch (get_field('placa_tamanio_texto')) {
-					case 'Chico':
-						echo '<div style="font-size:2.5em!important;">'.$foto.get_field('placa_texto').'</div>';
-						break;
-					case 'Mediano':
-						echo '<div style="font-size:3em!important;">'.$foto.get_field('placa_texto').'</div>';
-						break;
-					case 'Grande':
-						echo '<div style="font-size:3.5em!important;">'.$foto.get_field('placa_texto').'</div>';
-						break;
-					case 'Muy Grande':
-						echo '<div style="font-size:4em!important;">'.$foto.get_field('placa_texto').'</div>';
-						break;
-					
-					default:
-						echo '<p>'.get_field('placa_texto').'</p>';
-						break;
-				}
+
+			if (get_field('placa_titulo') && get_field('placa_tamanio_foto')!='Muy Grande') { 
+					echo '<h1>'.get_field('placa_titulo');
+					echo '<small>'.get_field('placa_lugar').'</small>';
+					echo '</h1>';
+				};  
+			
+			switch (get_field('placa_tamanio_texto')) {
+				case 'Chico':
+					echo '<div style="font-size:2.5em!important;">'.$foto.get_field('placa_texto').'</div>';
+					break;
+				case 'Mediano':
+					echo '<div style="font-size:3em!important;">'.$foto.get_field('placa_texto').'</div>';
+					break;
+				case 'Grande':
+					echo '<div style="font-size:3.5em!important;">'.$foto.get_field('placa_texto').'</div>';
+					break;
+				case 'Muy Grande':
+					echo '<div style="font-size:4em!important;">'.$foto.get_field('placa_texto').'</div>';
+					break;
+				
+				default:
+					echo '<p>'.get_field('placa_texto').'</p>';
+					break;
+			}
 			?></p>
 	</section>
 
