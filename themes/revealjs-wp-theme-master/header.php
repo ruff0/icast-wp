@@ -35,7 +35,9 @@
 <body>
 
 <video autoplay loop muted id="bgvid">
-    <source src="<?php echo get_template_directory_uri() ?>/assets/bg_converted.WebM" type="video/webm">
+    <source src="<?php echo get_template_directory_uri() ?>/assets/bg.ogv" type='video/ogg'>
+    <source src="<?php echo get_template_directory_uri() ?>/assets/bg.WebM" type="video/webm">
+    <source src="<?php echo get_template_directory_uri() ?>/assets/bg.mp4" type="video/mp4">
 </video>
 <?php do_action( 'reveal_before_body' ) ?>
 <div class="reveal">

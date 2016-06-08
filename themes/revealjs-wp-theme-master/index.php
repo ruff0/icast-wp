@@ -119,7 +119,7 @@
 
 
 <?php 
-$args = array( 'post_type' => 'placa', 'posts_per_page' => 100 );
+$args = array( 'post_type' => 'placa', 'posts_per_page' => 50 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post();
 // while ( have_posts() ) : the_post() ?>
@@ -146,7 +146,32 @@ while ( $loop->have_posts() ) : $loop->the_post();
 			endif;
 
 			if (get_field('placa_titulo') && get_field('placa_tamanio_foto')!='Muy Grande') { 
-					echo '<h1>'.get_field('placa_titulo');
+					echo '<h1 class="'.get_field('placa_tipo_mensaje').'">';
+					switch (get_field('placa_tipo_mensaje')) {
+						case 'Whatsapp':
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_w_blanco.png" height="70px">';
+							break;
+						case 'Messenger':
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_m_blanco.png" height="70px">';
+							break;
+						case 'Twitter':
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_t_blanco.png" height="70px">';
+							break;
+						case 'SMS':
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_s_blanco.png" height="70px">';
+							break;
+						case 'Mail':
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_mail_blanco.png" height="70px">';
+							break;
+						case '':
+							echo '';
+							break;
+						
+						default:
+							# code...
+							break;
+					}
+					echo get_field('placa_titulo');
 					echo '<small>'.get_field('placa_lugar').'</small>';
 					echo '</h1>';
 				};  

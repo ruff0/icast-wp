@@ -124,6 +124,9 @@ animation-delay: 3s;
     position: relative !important;
     top: -40px !important;
 }
+.redes strong, h3{
+  font-weight: bold !important;
+}
 .w40 , .w50 , .w60 {
   box-sizing: border-box;
   /*padding: 2% !important;*/
@@ -262,7 +265,7 @@ video#bgvid {
   line-height: 1.2em;
   /*letter-spacing: -0.03em;*/
   text-transform: none;
-  font-weight: 200;
+  /*font-weight: 200;*/
    font-family: "Montserrat";
   }
   .reveal h1 {
@@ -275,7 +278,7 @@ video#bgvid {
   border-bottom: 2px solid rgba(0,0,0,.3);
   margin-bottom: 15px;
   }
-.reveal .placas img {
+.reveal .placas div img {
   float: left;
   /*height: auto !important;*/
   margin-right: -100px;
@@ -289,9 +292,9 @@ video#bgvid {
 
 .placas h1 {
   margin-bottom: 55px;
-  font-size: 4em !important;
+  font-size: 5em !important;
   text-align: left;
-  padding: 17px 30px 20px 40px !important;
+  padding: 25px 30px 25px 40px !important;
   line-height: 1em;
   font-weight: bold;
   border-radius: 15px;
@@ -299,21 +302,45 @@ video#bgvid {
   -moz-box-shadow: 0px 4px 7px rgba(0,0,0,.2);
   -webkit-box-shadow: 0px 4px 7px rgba(0,0,0,.2);
   font-size: 3em;
-  text-shadow:none!important;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
   background: #ff5534;
 /*  background: -moz-linear-gradient(left, #ff5534 0%, #fe4a65 100%);
   background: -webkit-linear-gradient(left, #ff5534 0%,#fe4a65 100%);
   background: linear-gradient(to right, #ff5534 0%,#fe4a65 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5534', endColorstr='#fe4a65',GradientType=1 );*/
-  background: url('../../assets/h1_bg.png') no-repeat right center;
+  /*background: url('../../assets/h1_bg.png') no-repeat right center;*/
   border: 0!important;
-
+  background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_mail_bg.png')   ;
+background-position: right center  , center  center  ;
+  background-repeat: no-repeat, repeat  ;
+  background-size: auto 100%, 100% 100%  ;
   position: relative;
+  border-top-color: #ff533c !important; 
 }
+.placas h1 img {
+  position:relative;
+  top:5px;
+  margin-right: 20px;
+}
+.placas h1.Whatsapp{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_whatsapp_bg.png')   ; }
+.placas h1.Whatsapp:after {border-top-color: #3ab528 !important; }
+
+.placas h1.Messenger{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_messenger_bg.png')   ; }
+.placas h1.Messenger:after {border-top-color: #0078ff !important; }
+
+.placas h1.Twitter{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_twitter_bg.png')   ; }
+.placas h1.Twitter:after {border-top-color: #30bbe8 !important; }
+
+.placas h1.SMS{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_sms_bg.png')   ; }
+.placas h1.SMS:after {border-top-color: #ffa700 !important; }
+
+.placas h1.Mail{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_mail_bg.png')   ; }
+.placas h1.Mail:after {border-top-color: #ff533c !important; }
+
 .placas h1:after {
 
-  top: 100%;
-  left: 5%;
+  top: 98%;
+  left: 15%;
   border: solid transparent;
   content: " ";
   height: 0;
@@ -322,14 +349,16 @@ video#bgvid {
   pointer-events: none;
   border-color: rgba(136, 183, 213, 0);
   border-top-color: #ff5049;
-  border-width: 25px;
-  margin-left: -25px;
+  border-width: 35px;
+  margin-left: -35px;
 }
 
 .placas h1 small {
   display: block;
   height: 120%;
   float: right;
+  position: relative;
+  top:4px;
   color: #444;
   text-shadow:none;
   /*font-weight: normal;*/
