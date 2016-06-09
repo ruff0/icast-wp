@@ -332,7 +332,7 @@ background-position: right center  , center  center  ;
 .placas h1.Twitter:after {border-top-color: #30bbe8 !important; }
 
 .placas h1.SMS{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_sms_bg.png')   ; }
-.placas h1.SMS:after {border-top-color: #ffa700 !important; }
+.placas h1.SMS:after {border-top-color: #ff5534 !important; }
 
 .placas h1.Mail{background-image: url('../../assets/bg_right.png') ,url('../../assets/h1_mail_bg.png')   ; }
 .placas h1.Mail:after {border-top-color: #ff533c !important; }

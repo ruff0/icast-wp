@@ -146,13 +146,13 @@ while ( $loop->have_posts() ) : $loop->the_post();
 			endif;
 
 			if (get_field('placa_titulo') && get_field('placa_tamanio_foto')!='Muy Grande') { 
-					echo '<h1 class="'.get_field('placa_tipo_mensaje').'">';
+					echo '<h1 class="'.get_field('placa_tipo_mensaje').' ">';
 					switch (get_field('placa_tipo_mensaje')) {
 						case 'Whatsapp':
 							echo '<img src="'.get_template_directory_uri().'/assets/icono_w_blanco.png" height="70px">';
 							break;
 						case 'Messenger':
-							echo '<img src="'.get_template_directory_uri().'/assets/icono_m_blanco.png" height="70px">';
+							echo '<img src="'.get_template_directory_uri().'/assets/icono_f_blanco.png" height="70px">';
 							break;
 						case 'Twitter':
 							echo '<img src="'.get_template_directory_uri().'/assets/icono_t_blanco.png" height="70px">';
