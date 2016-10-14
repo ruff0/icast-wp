@@ -82,6 +82,7 @@ function reveal_initialize_script() {
 			parallaxBackgroundImage: <?php echo json_encode( $settings['parallaxBackgroundImage'] ) ?>,
 			parallaxBackgroundSize: <?php echo json_encode( $settings['parallaxBackgroundSize'] ) ?>,
 			width: <?php echo $settings['width'] ?>,
+			showNotes : false,
 			height: <?php echo $settings['height'] ?>,
 			margin: <?php printf( '%0.1f', $settings['margin'] ) ?>,
 			minScale: <?php printf( '%0.1f', $settings['minScale'] ) ?>,
@@ -96,7 +97,7 @@ function reveal_initialize_script() {
 					'classList' => "{ src: '" . get_template_directory_uri() . "/lib/js/classList.js', condition: function() { return !document.body.classList; } }",
 					'highlight' => "{ src: '" . get_template_directory_uri() . "/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }",
 					'zoom'      => "{ src: '" . get_template_directory_uri() . "/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }",
-					'notes'     => "{ src: '" . get_template_directory_uri() . "/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }",
+					// 'notes'     => "{ src: '" . get_template_directory_uri() . "/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }",
 				) ) );
 				?>
 			]
